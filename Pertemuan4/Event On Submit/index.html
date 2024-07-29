@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Submit</title>
+</head>
+<head> 
+<script language="javascript"> 
+var image1=new Image();
+image1.src="giphy.gif";
+var image2=new Image();
+image2.src="giphy(1).gif";
+var image3=new Image();
+image3.src="giphy(2).gif" 
+</script> 
+</head> 
+<body> 
+<center> 
+<h2>Penggunaan Objek Image Untuk Membuat SlideShow</H2><hr size=5 color="black"> 
+<img src="giphy.gif" name="slide" width="100" height="100"> 
+<script> 
+function slideit(){ 
+document.images.slide.src=eval("image"+step+".src");
+108
+if (step<3) step++ 
+else step=1;
+}
+slideit(); 
+</script> 
+<hr size=5 color="black"> 
+</body> 
+</html>

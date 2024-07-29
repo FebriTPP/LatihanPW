@@ -1,0 +1,13 @@
+body{
+    background-image: url(sus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    border: 2px solid red;
+    margin: 25px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-indent: 25px;
+}
